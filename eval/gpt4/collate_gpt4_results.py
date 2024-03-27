@@ -1,9 +1,8 @@
-from datasets import load_dataset
-from datasets import Dataset, Features
-from datasets import Image as ImageFeature
-from datasets import Value
 import glob
 import json
+
+from datasets import Dataset, Features, Value, load_dataset
+from datasets import Image as ImageFeature
 
 
 def sort_file_paths(file_paths):

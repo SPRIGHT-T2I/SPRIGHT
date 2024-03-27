@@ -1,0 +1,8 @@
+diffusers
+transformers
+accelerate
+wandb
+git+https://github.com/huggingface/optimum-habana.git
+datasets
+webdataset
+torchvision

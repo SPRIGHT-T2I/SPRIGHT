@@ -1,11 +1,12 @@
 import base64
-from io import BytesIO
-import requests
 import json
-from concurrent.futures import ThreadPoolExecutor
-from datasets import load_dataset
 import os
 import time
+from concurrent.futures import ThreadPoolExecutor
+from io import BytesIO
+
+import requests
+from datasets import load_dataset
 
 
 api_key = os.getenv("OPENAI_API_KEY")
@@ -37,7 +38,7 @@ The captions you are judging are designed to stress - test image captioning prog
 A few rules :
     1. It is ok if the caption does not explicitly mention each object in the image; as long as the caption is correct in its entirety, it is fine.
     2. It also ok if some captions dont have spatial relationships; judge them based on their correctness. A caption not containing spatial relationships should not be penalized.
-    3. You will think out loud about your eventual conclusion. Don't include your reasoning in the final output. 
+    3. You will think out loud about your eventual conclusion. Don't include your reasoning in the final output.
     4. You should return the response formatted as a Python-formatted dictionary having
     two keys: 'rating', denoting the numeric rating and 'explanation', denoting
     a brief justification for the rating.
