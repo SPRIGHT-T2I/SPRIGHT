@@ -2,7 +2,9 @@
 
 Welcome to the official GitHub repository for our paper titled "Getting it Right: Improving Spatial Consistency in Text-to-Image Models". Our work introduces a simple approach to enhance spatial consistency in text-to-image diffusion models, alongside a high-quality dataset designed for this purpose.
 
-_Getting it Right: Improving Spatial Consistency in Text-to-Image Models_ by ...
+**_Getting it Right: Improving Spatial Consistency in Text-to-Image Models_** by Agneet Chatterjee<sup>$</sup>, Gabriela Ben Melech Stan<sup>$</sup>, Estelle Aflalo, Sayak Paul, Dhruba Ghosh, Tejas Gokhale, Ludwig Schmidt, Hannaneh Hajishirzi, Vasudev Lal, Chitta Baral, Yezhou Yang.
+
+<sup>$</sup> denotes equal contribution.
 
 <p align="center">
     🤗 <a href="https://huggingface.co/SPRIGHT-T2I" target="_blank">Models & Datasets</a> | 📃 <a href="" target="_blank">Paper</a> |
