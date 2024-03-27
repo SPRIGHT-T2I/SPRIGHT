@@ -5,9 +5,9 @@ Welcome to the official GitHub repository for our paper titled "Getting it Right
 _Getting it Right: Improving Spatial Consistency in Text-to-Image Models_ by ...
 
 <p align="center">
-    🤗 <a href="https://huggingface.co/SPRIGHT-T2I" target="_blank">Models & Datasets</a> | 📃 <a href="https://arxiv.org/abs/2310.16944" target="_blank">Paper</a> |
-    ⚙️ <a href="https://arxiv.org/abs/2310.16944" target="_blank">Demo</a>
-    🎮 <a href="https://arxiv.org/abs/2310.16944" target="_blank">Project Website</a>
+    🤗 <a href="https://huggingface.co/SPRIGHT-T2I" target="_blank">Models & Datasets</a> | 📃 <a href="" target="_blank">Paper</a> |
+    ⚙️ <a href="https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I" target="_blank">Demo</a> |
+    🎮 <a href="https://spright.github.io/" target="_blank">Project Website</a>
 </p>
 
 ## 📄 Abstract
@@ -18,6 +18,7 @@ TODO
 - [Training](#🔍-training)
 - [Inference](#🌺-inference)
 - [The SPRIGHT Dataset](#🖼️-the-spright-dataset)
+- [Eval](#📊-evaluation)
 - [Citing](#📜-citing)
 - [Acknowledgments](#🙏-acknowledgments)
 
@@ -36,10 +37,39 @@ pip install requirements.txt
 TODO
 
 ## 🌺 Inference
-TODO
+
+```python
+from diffusers import DiffusionPipeline
+import torch 
+
+spright_id = "SPRIGHT-T2I/spright-t2i-sd2"
+pipe = DiffusionPipeline.from_pretrained(spright_id, torch_dtype=torch.float16).to("cuda")
+
+image = pipe("A horse above a pizza").images[0]
+image
+```
+
+You can also run [the demo](https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I) locally:
+
+```bash
+git clone https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I
+cd SPRIGHT-T2I
+python app.py
+```
+
+Make sure `gradio` and other dependencies are installed in your environment.
 
 ## 🖼️ The SPRIGHT Dataset
-TODO
+
+Refer to [our paper] and [the dataset page](https://huggingface.co/datasets/SPRIGHT-T2I/spright) for more details. Below are some examples from the SPRIGHT dataset:
+
+<p align="center">
+<img src="assets/spright_good-1.png"/>
+</p>
+
+## 📊 Evaluation
+
+In the [`eval/`](./eval/) directory, we provide details about the various evaluation methods we use in our work .
 
 ## 📜 Citing
 
@@ -54,4 +84,5 @@ TODO
 ```
 
 ## 🙏 Acknowledgments
+
 TODO
