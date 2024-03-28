@@ -16,6 +16,7 @@ In order to work on our dataset,
 
 - Download the dataset from [here](https://huggingface.co/datasets/SPRIGHT-T2I/spright) and place it under /path/to/spright
 - The structure of the downloaded repository is as followed:
+.
 ├── /path/to/spright
 │   ├── data
 │   │   ├── *.tar
