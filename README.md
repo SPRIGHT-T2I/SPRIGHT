@@ -32,7 +32,7 @@ If you have access to the Habana Gaudi accelerators, you can benefit from them a
 
 ## 🔍 Training
 
-Refer to [`training`](./training/).
+Refer to [`training/`](./training).
 
 ## 🌺 Inference
 
@@ -67,7 +67,7 @@ Refer to [our paper] and [the dataset page](https://huggingface.co/datasets/SPRI
 
 ## 📊 Evaluation
 
-In the [`eval/`](./eval/) directory, we provide details about the various evaluation methods we use in our work .
+In the [`eval/`](./eval) directory, we provide details about the various evaluation methods we use in our work .
 
 ## 📜 Citing
 
