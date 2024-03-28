@@ -26,17 +26,13 @@ TODO
 
 ## 💾 Installation
 
-Make sure you have CUDA and PyTorch set up. The PyTorch official documentation is the best
-place to refer to for that. Then you can install the other requirements of the project by running
+Make sure you have CUDA and PyTorch set up. The PyTorch [official documentation](https://pytorch.org/) is the best place to refer to for that. Rest of the installation instructions are provided in the respective sections. 
 
-```bash
-git clone https://github.com/SPRIGHT-T2I/SPRIGHT
-cd SPRIGHT
-pip install requirements.txt
-```
+If you have access to the Habana Gaudi accelerators, you can benefit from them as our training script supports them.
 
 ## 🔍 Training
-TODO
+
+Refer to [`training`](./training/).
 
 ## 🌺 Inference
 

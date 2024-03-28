@@ -1,8 +1,10 @@
-import os
-import shutil
-import random
 import json
+import os
+import random
+import shutil
+
 from tqdm.auto import tqdm
+
 
 random.seed(2024)
 
