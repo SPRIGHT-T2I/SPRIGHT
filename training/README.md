@@ -37,7 +37,7 @@ export MODEL_NAME="SPRIGHT-T2I/spright-t2i-sd2"
 export OUTDIR="path/to/outdir"  
 export SPRIGHT_SPLIT="path/to/spright/metadata.json" # download from: https://huggingface.co/datasets/SPRIGHT-T2I/spright/blob/main/metadata.json
 
-accelerate launch --mixed_precision="fp16" train_t2i_text_encoder_webdataset.py \
+accelerate launch --mixed_precision="fp16" train.py \
   --pretrained_model_name_or_path=$MODEL_NAME \
   --use_ema \
   --resolution=768 --center_crop --random_flip \
@@ -64,7 +64,7 @@ export WEBDATA_TRAIN="path/to/spright/data/{00000..00004}.tar"
 export WEBDATA_VAL="path/to/spright/data/{00004..00005}.tar"
 export SPRIGHT_SPLIT="path/to/spright/metadata.json" # download from: https://huggingface.co/datasets/SPRIGHT-T2I/spright/blob/main/metadata.json
 
-accelerate launch --mixed_precision="fp16" train_t2i_text_encoder_webdataset.py \
+accelerate launch --mixed_precision="fp16" train.py \
   --pretrained_model_name_or_path=$MODEL_NAME \
   --use_ema \
   --resolution=768 --center_crop --random_flip \
