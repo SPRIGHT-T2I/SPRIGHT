@@ -10,9 +10,20 @@ pip install git+https://github.com/huggingface/optimum-habana.git
 
 Other training-related Python dependencies are found in [`requirements.txt`](./requirements.txt).
 
-### Data prep
+### Data preparation
 
-TODO
+In order to work on our dataset, 
+
+- Download the dataset from [here](https://huggingface.co/datasets/SPRIGHT-T2I/spright) and place it under /path/to/spright
+- The structure of the downloaded repository is as followed:
+├── /path/to/spright
+│   ├── data
+│   │   ├── *.tar
+│   ├── metadata.json
+│   ├── load_data.py
+│   ├── robust_upload.py
+- Each .tar file contains aounrd 10k images with associated general and spatial captions.
+- The metadata.json file contains the nature of the split for each tar file, as well as the number of samples per .tar file. It should always be passed to the training command.
 
 ### Example training command
 
