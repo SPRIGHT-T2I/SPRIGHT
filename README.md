@@ -25,6 +25,7 @@ model to foster further research in this area.
 - [Citing](#📜-citing)
 - [Acknowledgments](#🙏-acknowledgments)
 
+<a name="installation"></a>
 ## 💾 Installation
 
 Make sure you have CUDA and PyTorch set up. The PyTorch [official documentation](https://pytorch.org/) is the best place to refer to for that. Rest of the installation instructions are provided in the respective sections. 
