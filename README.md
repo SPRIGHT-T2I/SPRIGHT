@@ -19,7 +19,7 @@ model to foster further research in this area.
 ## 📚 Contents
 - [Installation](#installation)
 - [Training](#training)
-- [Inference](#=inference)
+- [Inference](#inference)
 - [The SPRIGHT Dataset](#the-spright-dataset)
 - [Eval](#evaluation)
 - [Citing](#citing)
