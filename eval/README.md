@@ -11,3 +11,5 @@ Here we list out the evaluations we carried out in our work and their correspond
 |    GenEval    |    [Official implementation](https://github.com/djghosh13/geneval)   |
 |    CMMD    |    [Official implementation](https://github.com/google-research/google-research/tree/master/cmmd)   |
 |    FID    |    [Implementation](https://github.com/mseitzer/pytorch-fid)   |
+|    CKA    |    [Implementation](https://github.com/AntixK/PyTorch-Model-Compare)  |
+|    Attention Maps | [Official implementation](https://github.com/yuval-alaluf/Attend-and-Excite) | 
