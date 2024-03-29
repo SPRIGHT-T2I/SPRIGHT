@@ -84,4 +84,4 @@ In the [`eval/`](./eval) directory, we provide details about the various evaluat
 
 ## 🙏 Acknowledgments
 
-TODO
+We thank Lucain Pouget for helping us in uploading the dataset to the Hugging Face Hub and the Hugging Face team for providing computing resources to host our demo. The authors acknowledge resources and support from the Research Computing facilities at Arizona State University. This work was supported by NSF RI grants \#1750082 and \#2132724. The views and opinions of the authors expressed herein do not necessarily state or reflect those of the funding agencies and employers. 
