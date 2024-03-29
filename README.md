@@ -17,7 +17,7 @@ One of the key shortcomings in current text-to-image (T2I) models is their inabi
 model to foster further research in this area.
 
 ## 📚 Contents
-- [Installation](#💾-installation)
+- [Installation](#installation)
 - [Training](#🔍-training)
 - [Inference](#🌺-inference)
 - [The SPRIGHT Dataset](#🖼️-the-spright-dataset)
