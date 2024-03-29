@@ -17,24 +17,27 @@ One of the key shortcomings in current text-to-image (T2I) models is their inabi
 model to foster further research in this area.
 
 ## 📚 Contents
-- [Installation](#💾-installation)
-- [Training](#🔍-training)
-- [Inference](#🌺-inference)
-- [The SPRIGHT Dataset](#🖼️-the-spright-dataset)
-- [Eval](#📊-evaluation)
-- [Citing](#📜-citing)
-- [Acknowledgments](#🙏-acknowledgments)
+- [Installation](#installation)
+- [Training](#training)
+- [Inference](#inference)
+- [The SPRIGHT Dataset](#the-spright-dataset)
+- [Eval](#evaluation)
+- [Citing](#citing)
+- [Acknowledgments](#ack)
 
+<a name="installation"></a>
 ## 💾 Installation
 
 Make sure you have CUDA and PyTorch set up. The PyTorch [official documentation](https://pytorch.org/) is the best place to refer to for that. Rest of the installation instructions are provided in the respective sections. 
 
 If you have access to the Habana Gaudi accelerators, you can benefit from them as our training script supports them.
 
+<a name="training"></a>
 ## 🔍 Training
 
 Refer to [`training/`](./training).
 
+<a name="inference"></a>
 ## 🌺 Inference
 
 ```python
@@ -58,6 +61,7 @@ python app.py
 
 Make sure `gradio` and other dependencies are installed in your environment.
 
+<a name="the-spright-dataset"></a>
 ## 🖼️ The SPRIGHT Dataset
 
 Refer to [our paper] and [the dataset page](https://huggingface.co/datasets/SPRIGHT-T2I/spright) for more details. Below are some examples from the SPRIGHT dataset:
@@ -66,10 +70,12 @@ Refer to [our paper] and [the dataset page](https://huggingface.co/datasets/SPRI
 <img src="assets/spright_good-1.png"/>
 </p>
 
+<a name="evaluation"></a>
 ## 📊 Evaluation
 
 In the [`eval/`](./eval) directory, we provide details about the various evaluation methods we use in our work .
 
+<a name="citing"></a>
 ## 📜 Citing
 
 ```bibtex
@@ -82,6 +88,7 @@ In the [`eval/`](./eval) directory, we provide details about the various evaluat
 }
 ```
 
+<a name="ack"></a>
 ## 🙏 Acknowledgments
 
 We thank Lucain Pouget for helping us in uploading the dataset to the Hugging Face Hub and the Hugging Face team for providing computing resources to host our demo. The authors acknowledge resources and support from the Research Computing facilities at Arizona State University. This work was supported by NSF RI grants \#1750082 and \#2132724. The views and opinions of the authors expressed herein do not necessarily state or reflect those of the funding agencies and employers. 
