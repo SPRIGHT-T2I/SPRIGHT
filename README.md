@@ -9,7 +9,7 @@ Welcome to the official GitHub repository for our paper titled "Getting it Right
 <p align="center">
     🤗 <a href="https://huggingface.co/SPRIGHT-T2I" target="_blank">Models & Datasets</a> | 📃 <a href="" target="_blank">Paper</a> |
     ⚙️ <a href="https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I" target="_blank">Demo</a> |
-    🎮 <a href="https://spright.github.io/" target="_blank">Project Website</a>
+    🎮 <a href="https://spright-t2i.github.io/" target="_blank">Project Website</a>
 </p>
 
 ## 📄 Abstract
