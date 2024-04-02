@@ -7,7 +7,7 @@ Welcome to the official GitHub repository for our paper titled "Getting it Right
 <sup>$</sup> denotes equal contribution.
 
 <p align="center">
-    🤗 <a href="https://huggingface.co/SPRIGHT-T2I" target="_blank">Models & Datasets</a> | 📃 <a href="" target="_blank">Paper</a> |
+    🤗 <a href="https://huggingface.co/SPRIGHT-T2I" target="_blank">Models & Datasets</a> | 📃 <a href="https://arxiv.org/abs/2404.01197" target="_blank">Paper</a> |
     ⚙️ <a href="https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I" target="_blank">Demo</a> |
     🎮 <a href="https://spright-t2i.github.io/" target="_blank">Project Website</a>
 </p>
@@ -64,7 +64,7 @@ Make sure `gradio` and other dependencies are installed in your environment.
 <a name="the-spright-dataset"></a>
 ## 🖼️ The SPRIGHT Dataset
 
-Refer to [our paper] and [the dataset page](https://huggingface.co/datasets/SPRIGHT-T2I/spright) for more details. Below are some examples from the SPRIGHT dataset:
+Refer to our [paper](https://arxiv.org/abs/2404.01197) and [the dataset page](https://huggingface.co/datasets/SPRIGHT-T2I/spright) for more details. Below are some examples from the SPRIGHT dataset:
 
 <p align="center">
 <img src="assets/spright_good-1.png"/>
@@ -79,12 +79,13 @@ In the [`eval/`](./eval) directory, we provide details about the various evaluat
 ## 📜 Citing
 
 ```bibtex
-@article{yourname2024getting,
-  title={Getting it Right: Improving Spatial Consistency in Text-to-Image Models},
-  author={Your Name and Co-authors},
-  journal={Journal Name},
-  year={2024},
-  publisher={Publisher}
+@misc{chatterjee2024getting,
+      title={Getting it Right: Improving Spatial Consistency in Text-to-Image Models}, 
+      author={Agneet Chatterjee and Gabriela Ben Melech Stan and Estelle Aflalo and Sayak Paul and Dhruba Ghosh and Tejas Gokhale and Ludwig Schmidt and Hannaneh Hajishirzi and Vasudev Lal and Chitta Baral and Yezhou Yang},
+      year={2024},
+      eprint={2404.01197},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
